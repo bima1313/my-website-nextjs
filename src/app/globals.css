@@ -7,7 +7,7 @@
 
 @theme inline {
   --breakpoint-3xl: 120rem;
-  --color-primary: oklch(58.8% 0.158 241.966);
+  --color-primary: oklch(48.8% 0.243 264.376);
   --color-dark: rgb(0,0,0); 
   --color-background: var(--background);
   --color-foreground: var(--foreground);

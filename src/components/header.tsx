@@ -12,7 +12,9 @@ const Header: React.FC = () => {
     <header className="bg-slate-100 w-full flex items-center navbar-glass">
       <div className="w-full h-24 flex items-center justify-between relative">
         <div className="ml-6 md:ml-12">
-          <a className="text-primary text-xl font-bold font-montserrat tracking-wider md:text-2xl">
+          <a
+            className="text-primary text-xl font-bold font-montserrat tracking-wider md:text-2xl"
+            href="#">
             Bima Hamdhika Irfy
           </a>
         </div>

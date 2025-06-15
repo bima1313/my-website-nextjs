@@ -20,9 +20,9 @@ const Home: React.FC = () => {
         <div
           ref={titleAnimation}
           className="absolute top-full w-full transition duration-700 -translate-x-[40rem] lg:w-3/4 lg:static 3xl:w-1/2">
-          <h4 className="text-xl font-poppins tracking-wide lg:text-2xl">
+          <h3 className="text-xl font-poppins tracking-wide lg:text-2xl">
             Hello, everyone
-          </h4>
+          </h3>
           <h1 className="text-xl py-1 font-poppins tracking-wide lg:py-4 lg:text-2xl">
             {"I'm "}
             <span className="font-montserrat font-bold text-primary tracking-wider">

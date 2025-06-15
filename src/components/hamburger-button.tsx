@@ -12,7 +12,7 @@ const HamburgerButton: React.FC<props> = ({ hamburgerRef, navRef }) => {
     <button
       ref={hamburgerRef}
       name="hamburger"
-      type="button"
+      aria-label="hamburger-button"
       className="block absolute right-6 md:right-12 lg:hidden"
       onClick={handleClick}>
       <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>

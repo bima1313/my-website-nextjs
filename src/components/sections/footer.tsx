@@ -9,9 +9,9 @@ const Footer: React.FC = async () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex flex-wrap justify-around">
             <div>
-              <h5 className="font-montserrat font-semibold tracking-wider text-white">
+              <h4 className="font-montserrat font-semibold tracking-wider text-white">
                 Navigation
-              </h5>
+              </h4>
               <ul className="my-4">
                 <li className="font-poppins tracking-wide mt-2 text-white hover:text-primary">
                   <a href="#">Home</a>
@@ -25,9 +25,9 @@ const Footer: React.FC = async () => {
               </ul>
             </div>
             <div className="ml-12">
-              <h5 className="font-montserrat font-semibold tracking-wider text-white">
+              <h4 className="font-montserrat font-semibold tracking-wider text-white">
                 Social Media
-              </h5>
+              </h4>
               <ul className="my-4">
                 <li className="font-poppins tracking-wide mt-2 text-white hover:text-primary">
                   <a href="https://linkedin.com" target="_blank">

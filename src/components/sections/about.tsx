@@ -27,9 +27,9 @@ const About: React.FC = async () => {
           </li>
         ))}
       </ul>
-      <h4 className="font-montserrat font-bold tracking-wider text-2xl md:text-[28px] pt-8">
+      <h3 className="font-montserrat font-bold tracking-wider text-2xl md:text-[28px] pt-8">
         Tech Stack
-      </h4>
+      </h3>
       {aboutData?.slice(1).map((data) => (
         <TechStackSection key={data.id} techStack={data} />
       ))}

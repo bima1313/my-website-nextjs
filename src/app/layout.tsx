@@ -28,6 +28,15 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.ico",
   },
+  openGraph: {
+    type: "website",
+    title: "Bima Hamdhika Irfy",
+    description: "My website Created with NextJs",
+    url: "https://bima-hamdhika-irfy.vercel.app/",
+    images: [
+      { url: "https://bima-hamdhika-irfy.vercel.app/opengraph_image.png" },
+    ],
+  },
 };
 
 export default function RootLayout({

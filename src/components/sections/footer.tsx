@@ -9,9 +9,9 @@ const Footer: React.FC = async () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex flex-wrap justify-around">
             <div>
-              <h4 className="font-montserrat font-semibold tracking-wider text-white">
+              <h3 className="font-montserrat font-semibold tracking-wider text-white">
                 Navigation
-              </h4>
+              </h3>
               <ul className="my-4">
                 <li className="font-poppins tracking-wide mt-2 text-white hover:text-primary">
                   <a href="#">Home</a>
@@ -43,9 +43,9 @@ const Footer: React.FC = async () => {
             </div>
           </div>
           <div>
-            <h4 className="pt-6 text-center font-montserrat font-bold text-4xl tracking-wider text-white mx-auto xl:text-[40px]">
+            <h2 className="pt-6 text-center font-montserrat font-bold text-4xl tracking-wider text-white mx-auto xl:text-[40px]">
               {"Let's Connect"}
-            </h4>
+            </h2>
             <ul className="pt-4 flex gap-4 justify-center">
               {about?.at(0)?.images.map((iconData, index) => (
                 <Icon

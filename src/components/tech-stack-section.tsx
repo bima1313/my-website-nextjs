@@ -22,9 +22,9 @@ const TechStackSection: React.FC<props> = ({ techStack }) => {
   });
   return (
     <>
-      <h5 className="font-montserrat font-bold tracking-wider text-xl md:text-2xl py-8">
+      <h4 className="font-montserrat font-bold tracking-wider text-xl md:text-2xl py-8">
         {techStack.title}
-      </h5>
+      </h4>
       <ul ref={imageSpacing} className="flex flex-wrap gap-5 xl:justify-start">
         {techStack.images.map((data: ImageData) => (
           <li

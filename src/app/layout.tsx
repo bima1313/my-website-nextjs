@@ -34,7 +34,9 @@ export const metadata: Metadata = {
     description: "My website Created with NextJs",
     url: "https://bima-hamdhika-irfy.vercel.app/",
     images: [
-      { url: "https://bima-hamdhika-irfy.vercel.app/opengraph_image.png" },
+      {
+        url: "https://ucrjmqloirqtrqxindxn.supabase.co/storage/v1/object/public/opengraph//opengraph_image.png",
+      },
     ],
   },
 };

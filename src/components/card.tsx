@@ -20,9 +20,9 @@ const Card: React.FC<props> = ({ portfolioData }) => {
   }
   return (
     <a href={portfolioData.image.link} target="_blank">
-      <div className="w-full rounded-4xl bg-primary sm:w-4/5 md:w-[304px] mx-auto">
+      <div className="w-full rounded-4xl bg-primary sm:w-[400px] md:w-[304px] mx-auto">
         <div
-          className="relative rounded-4xl overflow-hidden md:w-[304px] md:h-48"
+          className="relative rounded-4xl overflow-hidden md:h-48"
           onMouseEnter={handleHover}
           onMouseLeave={handleOver}
           aria-label="Card Button">
@@ -30,10 +30,11 @@ const Card: React.FC<props> = ({ portfolioData }) => {
             <LoadingComponent size="border-[16px] w-24 h-24" inImage={true} />
           )}
           <Image
-            style={{ objectFit: "fill" }}
-            fill={true}
+            style={{ height:"192px", width:'100%' }}
             src={portfolioData.image.image_source}
             alt={portfolioData.image.image_alt}
+            width={304}
+            height={192}
             loading="lazy"
             onLoad={() => setLoading(false)}
             onError={() => setLoading(false)}

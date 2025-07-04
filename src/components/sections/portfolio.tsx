@@ -8,7 +8,7 @@ const Portfolio: React.FC = async () => {
       <h2 className="font-montserrat font-bold tracking-wider mb-12 text-3xl md:text-4xl">
         Portfolio
       </h2>
-      <div className="flex flex-wrap gap-8 3xl:gap-8 md:justify-center lg:justify-start">
+      <div className="flex flex-wrap gap-8 3xl:gap-8 justify-center lg:justify-start">
         {portfolioData?.map((data) => (
           <Card key={data.id} portfolioData={data} />
         ))}
